@@ -1,4 +1,4 @@
-:root {
+/* :root {
 --accent-color: #2196F3;
 --main-font-color: #212121;
 --secondary-font-color: #757575;
@@ -21,7 +21,7 @@ img {
   display: block;
 }
 
-/* ===========  COMPONENT  =========== */
+===========  COMPONENT  ===========
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -46,7 +46,7 @@ body {
 .visualy-hidden,
 .modal-form-check {
 position: absolute !important;
-clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+clip: rect(1px 1px 1px 1px); (IE6, IE7)
 clip: rect(1px, 1px, 1px, 1px);
 padding: 0;
 border: 0;
@@ -70,15 +70,15 @@ color: var(--main-font-color);
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
-/* ===========  END COMPONENT  =========== */
+===========  END COMPONENT  ===========
 
-/* ===========  HEADER  =========== */
+===========  HEADER  ===========
  .header {
     padding: 24px 0px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .header .container {
@@ -114,7 +114,7 @@ a .logo {
   margin-left: 0px;
   margin-right: 90px;
   max-width: 145px;
-  /* в макете стоит 93 пикселя. я округлил до 90, как рекомендовал Лёша */
+  в макете стоит 93 пикселя. я округлил до 90, как рекомендовал Лёша
 }
 
 .nav .list-item:not(:last-child) {
@@ -165,9 +165,9 @@ margin-right: 50px;
   margin-right: 10px;
 }
 
-/* ===========  END HEADER  =========== */
+===========  END HEADER  ===========
 
-/* ===========  HERO  =========== */
+===========  HERO  ===========
 .hero {
   text-align: center;
   padding: 200px 15px;
@@ -232,9 +232,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0 15px;
   margin: 0 auto;
 }
-/* ===========  END HERO  =========== */
+===========  END HERO  ===========
 
-/* ===========  ADVANTAGE  =========== */
+===========  ADVANTAGE  ===========
 .hidden-section-title {
 display: none;
 }
@@ -308,9 +308,9 @@ background-position: center;
    margin-right: 0px;
  }
 
-/* ===========  END ADVANTAGE  =========== */
+===========  END ADVANTAGE  ===========
 
-/* ===========  WHAT WE DO  =========== */
+===========  WHAT WE DO  ===========
 .whatwedo-title {
   margin-bottom: 50px;
 }
@@ -354,9 +354,9 @@ padding-bottom: 94px;
 
 }
 
-/* ===========  END WHAT WE DO  =========== */
+===========  END WHAT WE DO  ===========
 
-/* ===========  TEAM  =========== */
+===========  TEAM  ===========
 .team {
   background: #F5F4FA;
   padding-top: 94px;
@@ -399,9 +399,9 @@ border-radius: 0px 0px 4px 4px;
   font-weight: 400;
   color: var(--secondary-font-color);
  }
-/* ===========  END TEAM  =========== */
+===========  END TEAM  ===========
 
-/* ===========  CLIENTS  =========== */
+===========  CLIENTS  ===========
 .clients-cont {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -510,9 +510,9 @@ height: 42px;
   background-color: var(--accent-color);
   color: var(--text-dark-theme-color);
 }
-  /* ===========  END CLIENTS  =========== */
+  ===========  END CLIENTS  ===========
 
-/* ===========  FOOTER  =========== */
+===========  FOOTER  ===========
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -592,7 +592,7 @@ height: 42px;
 
 
 
- /*  =========== Modal ========= */
+  =========== Modal =========
 
 
 
@@ -636,7 +636,7 @@ pointer-events: none;
 .modal-form-btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #188CE8;
-  /* opacity: 0.7; */
+  opacity: 0.7;
 }
 
 .backdrop {
@@ -776,7 +776,7 @@ border-radius: 4px;
 }
 
 
-/* ============= END MODAL =========== */
+============= END MODAL ===========
 .footer-form-area {
   display: inline-flex;
   align-items: center;
@@ -850,7 +850,7 @@ border-radius: 4px;
 
 
 
-/* ===========  PORTFOLIO COMPONENT  =========== */
+===========  PORTFOLIO COMPONENT  ===========
 .portfolio-text-common {
 font-size: 16px;
 letter-spacing: 0.03em;
@@ -878,9 +878,9 @@ padding-bottom: 30px;
   background-color: var(--accent-color);
 
 }
-/* ===========  END PORTFOLIO COMPONENT  =========== */
+===========  END PORTFOLIO COMPONENT  ===========
 
-/* ===========  PORTFOLIO BTN  =========== */
+===========  PORTFOLIO BTN  ===========
 .filter {
   padding-bottom: 50px;
 }
@@ -916,9 +916,9 @@ padding-bottom: 30px;
   cursor: pointer;
 }
 
-/* ===========  END PORTFOLIO BTN  =========== */
+===========  END PORTFOLIO BTN  ===========
 
-/* ===========  PORTFOLIO SORT  =========== */
+===========  PORTFOLIO SORT  ===========
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -1001,5 +1001,5 @@ padding-bottom: 30px;
 }
 
 
-/* ===========  END PORTFOLIO SORT  =========== */
-
+===========  END PORTFOLIO SORT  ===========
+ */
