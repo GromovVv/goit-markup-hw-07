@@ -13,23 +13,24 @@
       flex-direction: column;
       margin-right: 70px;
     }
+
     &-list {
       display: flex;
       list-style: none;
       
-      &-svg {
-        width: 20px;
-        height: 20px;
-        fill: $text-dark-theme-color;
-      }
+    &-svg {
+      width: 20px;
+      height: 20px;
+      fill: $text-dark-theme-color;
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 10px;
+    }
 
       &-item:not(:last-child) {
-        margin-right: 10px;
+        margin-bottom: 9px;
       }
-
-      // &-item:not(:last-child) {
-      //   margin-bottom: 9px;
-      // }
 
       &-link {
         display: flex;
